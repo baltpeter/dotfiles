@@ -15,6 +15,7 @@
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.rulers": [120], // Display a guide to show the 'max' line-length
+    "terminal.integrated.fontFamily": "MesloLGS NF", // Font for Powerlevel10k (https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
     "prettier.printWidth": 120,
     "prettier.singleQuote": true,
