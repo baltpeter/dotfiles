@@ -49,6 +49,12 @@ zinit load zdharma/history-search-multi-word
 zinit ice wait"2" lucid as"program" pick"bin/git-dsf"
 zinit load zdharma/zsh-diff-so-fancy
 
+# direnv, taken from: http://zdharma.org/zinit/wiki/Direnv-explanation/
+zinit from"gh-r" as"program" mv"direnv* -> direnv" \
+    atclone'./direnv hook zsh > zhook.zsh' atpull'%atclone' \
+    pick"direnv" src="zhook.zsh" for \
+        direnv/direnv
+
 zinit wait pack atload=+"zicompinit; zicdreplay" for system-completions
 zinit pack for fzf
 zinit pack for fzy
