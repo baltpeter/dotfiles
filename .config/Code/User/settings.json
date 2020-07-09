@@ -45,6 +45,9 @@
     "[csv (pipe)]": {
         "editor.rulers": [38]
     },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
 
     "files.associations": {
         "*.dict": "csv (pipe)"
