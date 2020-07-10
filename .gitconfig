@@ -40,6 +40,8 @@
     r = rebase
     rc = rebase --continue
     ra = rebase --abort
+    # Only force-push if remote hasn't diverged, taken from: https://thoughtbot.com/blog/git-push-force-with-lease
+    fp = push --force-with-lease
 
     oops = !git commit --amend --no-edit
 [color]
