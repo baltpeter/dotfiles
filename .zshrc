@@ -56,7 +56,7 @@ zinit from"gh-r" as"program" mv"direnv* -> direnv" \
         direnv/direnv
 
 zinit wait pack atload=+"zicompinit; zicdreplay" for system-completions
-zinit pack for fzf
+zinit wait pack"default+keys" atload"source ~/.zsh/fzf-ctrl-s.zsh" for fzf
 zinit pack for fzy
 
 
