@@ -57,5 +57,9 @@
     "vsicons.dontShowNewVersionMessage": true,
     "explorer.confirmDragAndDrop": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "languageToolLinter.languageTool.motherTongue": "de-DE",
+    "languageToolLinter.languageTool.preferredVariants": "en-GB,de-DE",
+    "languageToolLinter.lintOnOpen": true
 }
