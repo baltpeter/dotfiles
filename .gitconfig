@@ -16,6 +16,7 @@
 [alias]
     # diff-so-fancy is installed by zinit, otherwise see: https://github.com/so-fancy/diff-so-fancy
     fdiff = !sh -c 'git diff --color "$@" | diff-so-fancy'
+    fdiffc = !sh -c 'git diff --cached --color "$@" | diff-so-fancy'
 
     # Adapted after: https://blog.filippo.io/git-fixup-amending-an-older-commit/ (2019-06-22)
     # I had to remove the `${@:2}` after `commit` which would have forwarded all remaining args to `commit`
