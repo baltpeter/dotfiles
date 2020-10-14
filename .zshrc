@@ -9,7 +9,7 @@ HISTSIZE=50000
 SAVEHIST=100000
 HISTFILE=~/.zsh_history
 
-setopt histignorealldups hist_ignore_space nobeep
+setopt histignorealldups hist_ignore_space nobeep interactive_comments
 # Options copied from grml (https://github.com/grml/grml-etc-core/blob/e01bb8fd4f1afa24ac37638aee2ba1e68959ae2b/etc/zsh/zshrc)
 setopt append_history share_history extended_history extended_glob longlistjobs notify noglobdots
 
