@@ -84,6 +84,7 @@ zinit wait lucid light-mode blockf atpull'zinit creinstall -q .' for \
 
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
 [[ ! -f ~/.zshrc.priv ]] || source ~/.zshrc.priv
+[[ ! -f ~/.zsh/aliases.zsh ]] || source ~/.zsh/aliases.zsh
 
 for file in ~/.zsh/functions/*.zsh; do
     source "$file"

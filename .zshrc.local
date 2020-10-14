@@ -1,18 +1,5 @@
 export EDITOR=nano
 
-# temporary Firefox profile, see https://news.ycombinator.com/item?id=18898865
-alias fx="firefox --new-instance --profile $(mktemp -d)"
-
-alias add="git add . && git commit -m"
-
-alias open=xdg-open
-
-
-# Create an SSH tunnel for RDP to a computer at bebelhof.de. First argument is the local IP of the PC.
-bebel_rdp () {
-    ssh root@bebelhof.de -N -L 4000:$1:3389
-}
-
 
 # TODO: Move these somewhere else. Maybe use the ones from grml instead?
 zstyle ':completion:*' auto-description 'specify: %d'
