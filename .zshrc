@@ -57,6 +57,12 @@ zinit from"gh-r" as"program" mv"direnv* -> direnv" \
     pick"direnv" src="zhook.zsh" for \
         direnv/direnv
 
+# fd, bat and exa, taken from: http://zdharma.org/zinit/wiki/GALLERY/#programs
+zinit wait"1" lucid from"gh-r" as"null" for \
+     sbin"**/fd"        @sharkdp/fd \
+     sbin"**/bat"       @sharkdp/bat \
+     sbin"exa* -> exa"  ogham/exa
+
 zinit wait pack atload=+"zicompinit; zicdreplay" for system-completions
 zinit wait pack"default+keys" atload"source ~/.zsh/fzf-ctrl-s.zsh" for fzf
 zinit pack for fzy
