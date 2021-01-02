@@ -84,6 +84,13 @@ zinit load zsh-users/zsh-autosuggestions
 zinit wait lucid light-mode blockf atpull'zinit creinstall -q .' for \
       zinit light zsh-users/zsh-completions
       zinit light srijanshetty/zsh-pandoc-completion
+
+# Additional completions
+zinit ice as"completion"
+zinit snippet https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
+
+zinit ice as"completion"
+zinit snippet https://github.com/docker/compose/tree/master/contrib/completion/zsh/_docker-compose
 ################################################################################
 # </Zinit>
 ################################################################################
