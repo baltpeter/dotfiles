@@ -32,6 +32,7 @@
     # Delete merged branches, taken from: https://haacked.com/archive/2014/07/28/github-flow-aliases/
     bclean = "!f() { git checkout ${1-master} && git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
 
+    ca = commit --amend
     co = checkout
     cob = checkout -b
     com = checkout master
