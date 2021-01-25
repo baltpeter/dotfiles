@@ -484,7 +484,7 @@
 
   # Status when it's just an error code (e.g., '1'). No need to show it if prompt_char is enabled as
   # it will signify error by turning red.
-  typeset -g POWERLEVEL9K_STATUS_ERROR=false
+  typeset -g POWERLEVEL9K_STATUS_ERROR=true
   typeset -g POWERLEVEL9K_STATUS_ERROR_VISUAL_IDENTIFIER_EXPANSION='✘'
   # typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=3
   # typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=1
@@ -492,7 +492,7 @@
   # Status when the last command was terminated by a signal.
   typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL=true
   # Use terse signal names: "INT" instead of "SIGINT(2)".
-  typeset -g POWERLEVEL9K_STATUS_VERBOSE_SIGNAME=false
+  typeset -g POWERLEVEL9K_STATUS_VERBOSE_SIGNAME=true
   typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL_VISUAL_IDENTIFIER_EXPANSION='✘'
   # typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL_FOREGROUND=3
   # typeset -g POWERLEVEL9K_STATUS_ERROR_SIGNAL_BACKGROUND=1
