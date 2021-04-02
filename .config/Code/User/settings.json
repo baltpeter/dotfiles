@@ -18,6 +18,27 @@
     // Enable suggestions for CSS classes without needing to toggle Intellisense (https://github.com/ecmel/vscode-html-css/issues/72).
     "editor.quickSuggestions": { "other": true, "comments": false, "strings": true },
     "terminal.integrated.fontFamily": "MesloLGS NF", // Font for Powerlevel10k (https://github.com/romkatv/powerlevel10k#manual-font-installation)
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+
+    "python.languageServer": "Pylance",
+
+    "cmake.configureOnOpen": true,
+    "c-cpp-flylint.flexelint.enable": false,
+
+    "html.format.indentHandlebars": true,
+    "html.format.maxPreserveNewLines": 1,
+    "html.format.templating": true,
+    "html.format.extraLiners": "",
+
+    // https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
+    "css.enabledLanguages": ["html", "njk"],
+    "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"],
+    "css.validation": {
+        "id": false,
+        "class": false
+    },
 
     "prettier.printWidth": 120,
     "prettier.singleQuote": true,
@@ -61,17 +82,18 @@
     "files.associations": {
         "*.dict": "csv (pipe)"
     },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "vsicons.associations.files": [{ "icon": "nunjucks", "extensions": ["njk"], "format": "svg" }],
 
     "liveServer.settings.donotShowInfoMsg": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 0,
+
     "languageToolLinter.languageTool.motherTongue": "de-DE",
     "languageToolLinter.languageTool.preferredVariants": "en-GB,de-DE",
-    "languageToolLinter.lintOnOpen": true,
-    "cmake.configureOnOpen": true,
-    "python.languageServer": "Pylance",
-    "c-cpp-flylint.flexelint.enable": false
+    "languageToolLinter.lintOnOpen": true
 }
