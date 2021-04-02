@@ -15,6 +15,8 @@
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.rulers": [120], // Display a guide to show the 'max' line-length
+    // Enable suggestions for CSS classes without needing to toggle Intellisense (https://github.com/ecmel/vscode-html-css/issues/72).
+    "editor.quickSuggestions": { "other": true, "comments": false, "strings": true },
     "terminal.integrated.fontFamily": "MesloLGS NF", // Font for Powerlevel10k (https://github.com/romkatv/powerlevel10k#manual-font-installation)
 
     "prettier.printWidth": 120,
