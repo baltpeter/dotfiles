@@ -77,6 +77,9 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
 
     "files.associations": {
         "*.dict": "csv (pipe)"
