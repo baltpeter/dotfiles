@@ -75,7 +75,6 @@
         "editor.rulers": [38]
     },
     "[html]": {
-        "editor.formatOnSave": false,
         "editor.defaultFormatter": "vscode.html-language-features"
     },
 
