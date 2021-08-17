@@ -22,6 +22,7 @@
     "explorer.confirmDragAndDrop": false,
     "editor.suggestSelection": "first",
     "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.untitled.experimentalLanguageDetection": true,
 
     "python.languageServer": "Pylance",
 
