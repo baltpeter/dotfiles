@@ -48,7 +48,6 @@
     "prettier.singleQuote": true,
     "prettier.jsxBracketSameLine": true,
     "prettier.tabWidth": 4,
-    "prettier.disableLanguages": ["html", "vue", "md"],
 
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,7 +78,13 @@
         "editor.rulers": [38]
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
+    },
+    "[njk]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
     },
     "emmet.includeLanguages": {
         "njk": "html"
