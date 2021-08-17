@@ -41,6 +41,7 @@
     cm = commit -m
     r = rebase
     rc = rebase --continue
+    ri = rebase --interactive
     ra = rebase --abort
     # Only force-push if remote hasn't diverged, taken from: https://thoughtbot.com/blog/git-push-force-with-lease
     fp = push --force-with-lease
