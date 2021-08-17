@@ -93,12 +93,13 @@
     "files.associations": {
         "*.dict": "csv (pipe)"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
     "vsicons.associations.files": [{ "icon": "nunjucks", "extensions": ["njk"], "format": "svg" }],
 
     "liveServer.settings.donotShowInfoMsg": true,
@@ -106,5 +107,11 @@
 
     "languageToolLinter.languageTool.motherTongue": "de-DE",
     "languageToolLinter.languageTool.preferredVariants": "en-GB,de-DE",
-    "languageToolLinter.lintOnOpen": true
+    "languageToolLinter.lintOnOpen": true,
+    "gitlens.codeLens.scopes": ["document", "containers"],
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "githubPullRequests.fileListLayout": "flat"
 }
