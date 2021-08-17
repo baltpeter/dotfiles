@@ -95,6 +95,9 @@ zinit snippet https://github.com/docker/compose/tree/master/contrib/completion/z
 # </Zinit>
 ################################################################################
 
+# Completions for dattel
+DATTEL_AC_ZSH_SETUP_PATH=/home/benni/.cache/dattel-client/autocomplete/zsh_setup && test -f $DATTEL_AC_ZSH_SETUP_PATH && source $DATTEL_AC_ZSH_SETUP_PATH;
+
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
 [[ ! -f ~/.zshrc.priv ]] || source ~/.zshrc.priv
 [[ ! -f ~/.zsh/aliases.zsh ]] || source ~/.zsh/aliases.zsh
