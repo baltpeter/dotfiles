@@ -21,6 +21,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "explorer.confirmDragAndDrop": false,
     "editor.suggestSelection": "first",
+    "workbench.editor.untitled.hint": "hidden",
 
     "python.languageServer": "Pylance",
 
