@@ -1,6 +1,11 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
+        "key": "ctrl+[IntlBackslash]", // Ctrl + <
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
         "key": "ctrl+d",
         "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
@@ -72,5 +77,9 @@
         "key": "ctrl+space",
         "command": "-toggleSuggestionDetails",
         "when": "suggestWidgetVisible && textInputFocus"
-    }
+    },
+    { "key": "ctrl+shift+up", "command": "-editor.action.insertCursorAbove", "when": "editorTextFocus" },
+    { "key": "ctrl+shift+down", "command": "-editor.action.insertCursorBelow", "when": "editorTextFocus" },
+    { "key": "ctrl+shift+up", "command": "onTrueLines.cursorColumnSelectUpOnTrueLines", "when": "editorTextFocus" },
+    { "key": "ctrl+shift+down", "command": "onTrueLines.cursorColumnSelectDownOnTrueLines", "when": "editorTextFocus" }
 ]
