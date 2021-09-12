@@ -110,5 +110,6 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
     "diffEditor.ignoreTrimWhitespace": false,
-    "githubPullRequests.fileListLayout": "flat"
+    "githubPullRequests.fileListLayout": "flat",
+    "git.autofetch": true
 }
