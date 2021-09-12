@@ -22,6 +22,7 @@
     "explorer.confirmDragAndDrop": false,
     "editor.suggestSelection": "first",
     "workbench.editor.untitled.hint": "hidden",
+    "editor.bracketPairColorization.enabled": true,
 
     "python.languageServer": "Pylance",
 
