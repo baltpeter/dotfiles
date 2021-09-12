@@ -28,8 +28,6 @@
     "cmake.configureOnOpen": true,
     "c-cpp-flylint.flexelint.enable": false,
 
-    "js/ts.implicitProjectConfig.checkJs": true,
-
     "html.format.indentHandlebars": true,
     "html.format.maxPreserveNewLines": 1,
     "html.format.templating": true,
