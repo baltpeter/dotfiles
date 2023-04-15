@@ -35,7 +35,7 @@
     ca = commit --amend
     co = checkout
     cob = checkout -b
-    com = checkout master
+    com = "!if git show-ref refs/heads/main >/dev/null 2>&1; then git checkout main; else git checkout master; fi"
     s = status
     c = commit
     cm = commit -m
